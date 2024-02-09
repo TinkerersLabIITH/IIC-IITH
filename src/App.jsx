@@ -10,8 +10,8 @@ import IandE from "./Components/IandE/IandE";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className={styles.App}>
+      <IandE />
     </div>
   );
 }

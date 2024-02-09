@@ -62,7 +62,7 @@ function Header() {
           <div className={styles.menu_icon} onClick={handleShowNavbar}>
             <Hamburger />
           </div>
-          <div className={styles.nav - elements}>
+          <div className={styles.nav_elements}>
             <ul>
               <li>Home</li>
               <li>Blogs</li>
