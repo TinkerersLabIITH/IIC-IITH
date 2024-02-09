@@ -1,5 +1,6 @@
 import React from "react";
-import "../styles/IIC-council.css";
+import "./IIC-council.css";
+
 const IIC_Council = () => {
   return (
     <>
