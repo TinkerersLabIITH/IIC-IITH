@@ -1,104 +1,169 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
-
-
-.container {
-    /* max-width: 1100px; */
-    margin: 0 auto;
-    /* padding: 0 15px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
+.header {}
 
 .navbar {
-    height: 60px;
     background-color: white;
-    position: relative;
+    padding-top: 2vh;
+    text-align: center;
 }
 
-.logo {}
-
-.logoImage {
-    width: 25vw;
-    padding-top: 1vh;
-
-}
-
-.menu-icon {
-    display: none;
-}
-
-.nav-elements {}
-
-.nav-elements ul {
-    display: flex;
-    justify-content: space-between;
+.navList {
     list-style-type: none;
-}
-
-.nav-elements ul li:not(:last-child) {
-    margin-right: 60px;
-}
-
-.nav_elements ul a {
-    font-size: 16px;
-    font-weight: 400;
-    color: #2f234f;
-    text-decoration: none;
-}
-
-.nav-elements ul a.active {
-    color: #574c4c;
-    font-weight: 500;
-    position: relative;
-}
-
-.nav-elements ul a.active::after {
-    content: "";
-    position: absolute;
-    bottom: -4px;
-    left: 0;
+    justify-content: center;
+    display: inline-block;
     width: 100%;
-    height: 2px;
-    background-color: #574c4c;
+    margin: auto;
+    height: 60px;
+    padding: 0;
 }
 
-@media (max-width: 768px) {
-    .nav-elements ul li:not(:last-child) {
-        margin-right: 30px;
+.other,
+.logo,
+.dropdown {
+    float: left;
+    text-align: center;
+    margin: auto;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.img_class {
+    width: 100%;
+}
+
+.logo {
+    width: 30%;
+}
+
+.other,
+.dropdown {
+    width: 10%;
+
+}
+
+.navList li a {
+    display: block;
+    color: rgb(112, 107, 107);
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+}
+
+.navList li a:hover {
+    color: #111;
+}
+
+.dropdown {
+    display: inline-flex;
+    visibility: hidden;
+    text-align: right;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: rgb(112, 107, 107);
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.dropbtn2 {
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.dropdownContent {
+    background-color: #ffffff;
+    width: 100vw;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.dropdownContent2 {
+    display: none;
+    visibility: hidden;
+}
+
+.dropdownContent a {
+    float: none;
+    color: rgb(112, 107, 107);
+    text-decoration: none;
+    display: block;
+    margin-top: 7px;
+    font-size: large;
+}
+
+.dropdownContent a:hover {
+    color: #111;
+}
+
+hr {
+    color: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1100px) {
+    .logo {
+        display: inline-block;
+        width: 350px;
+        padding-left: 20px;
+    }
+
+    .other {
+        visibility: hidden;
+        display: none;
+    }
+
+    .dropdown {
+        justify-content: right;
+        visibility: visible;
+        width: calc(100% - 350px);
     }
 }
 
-@media (max-width: 600px) {
-    .menu-icon {
-        display: block;
-        cursor: pointer;
+@media (max-width: 500px) {
+
+    .navbar {
+        background-color: white;
+        padding-top: 1vh;
+        text-align: center;
     }
 
-    .nav-elements {
-        position: absolute;
-        right: 0;
-        top: 60px;
-        background-color: #fef7e5;
-        width: 0px;
-        height: calc(100vh - 60px);
-        transition: all 0.3s ease-in;
-        overflow: hidden;
+    .navList {
+        list-style-type: none;
+        justify-content: center;
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        height: 40px;
     }
 
-    .nav-elements.active {
-        width: 270px;
+    .logo {
+        padding-top: 5px;
+        display: inline-block;
+        width: 250px;
+        padding-left: 10px;
     }
 
-    .nav-elements ul {
-        display: flex;
-        flex-direction: column;
+    .other {
+        visibility: hidden;
+        display: none;
     }
 
-    .nav-elements ul li {
-        margin-right: unset;
-        margin-top: 22px;
+    .dropdown {
+        justify-content: right;
+        visibility: visible;
+        width: calc(100% - 250px);
     }
 }
+
+/* 1100px */

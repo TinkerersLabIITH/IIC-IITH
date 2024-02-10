@@ -1,78 +1,88 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
+import myLogo from "../../assets/logo.png";
 
 function Header() {
-  const Hamburger = () => (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="52"
-      height="24"
-      viewBox="0 0 52 24"
-    >
-      <g id="Group_9" data-name="Group 9" transform="translate(-294 -47)">
-        <rect
-          id="Rectangle_3"
-          data-name="Rectangle 3"
-          width="42"
-          height="4"
-          rx="2"
-          transform="translate(304 47)"
-          fill="#574c4c"
-        />
-        <rect
-          id="Rectangle_5"
-          data-name="Rectangle 5"
-          width="42"
-          height="4"
-          rx="2"
-          transform="translate(304 67)"
-          fill="#574c4c"
-        />
-        <rect
-          id="Rectangle_4"
-          data-name="Rectangle 4"
-          width="52"
-          height="4"
-          rx="2"
-          transform="translate(294 57)"
-          fill="#574c4c"
-        />
-      </g>
-    </svg>
-  );
+  const [isActive, setIsActive] = useState(false);
 
-  const [showNavbar, setShowNavbar] = useState(false);
-
-  const handleShowNavbar = () => {
-    setShowNavbar(!showNavbar);
+  const changeState = (event) => {
+    // 👇️ toggle isActive state on click
+    setIsActive((current) => !current);
   };
+
+  useEffect(() => {
+    const x = window.matchMedia("(min-width: 1100px)");
+    function myFunction(x) {
+      if (x.matches) {
+        setIsActive(false);
+      }
+    }
+    x.addListener(myFunction);
+    return () => x.removeListener(myFunction);
+  }, []);
 
   return (
     <>
-      <nav className={styles.navbar}>
-        <div className={styles.container}>
-          <div className={styles.logo}>
-            <img
-              className={styles.logoImage}
-              src="../../assets/logo.png"
-              alt="Logo"
-            />
-          </div>
-          <div className={styles.menu_icon} onClick={handleShowNavbar}>
-            <Hamburger />
-          </div>
-          <div className={styles.nav_elements}>
-            <ul>
-              <li>Home</li>
-              <li>Blogs</li>
-              <li>Projects</li>
-              <li>About</li>
-              <li>Contact</li>
-            </ul>
-          </div>
+      <div className={styles.header}>
+        <nav className={styles.navbar}>
+          <ul className={styles.navList}>
+            <li className={styles.logo}>
+              <img
+                className={styles.img_class}
+                src="src/assets/logo.png"
+                alt="Logo"
+              />
+            </li>
+            <li className={styles.other}>
+              <a href="#">Home</a>
+            </li>
+            <li className={styles.other}>
+              <a href="#">Major Focus Areas</a>
+            </li>
+            <li className={styles.other}>
+              <a href="#">Functions</a>
+            </li>
+            <li className={styles.other}>
+              <a href="#">I & E Events</a>
+            </li>
+            <li className={styles.other}>
+              <a href="#">Institute's Innovation Council</a>
+            </li>
+            <li className={styles.other}>
+              <a href="#">Guidelines</a>
+            </li>
+            <li className={styles.other}>
+              <a href="#">Downloads</a>
+            </li>
+            <li className={styles.dropdown}>
+              <a
+                href="#"
+                className={isActive ? styles.dropbtn2 : styles.dropbtn}
+                onClick={changeState}
+              >
+                Dropdown
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <hr />
+        <div
+          className={
+            isActive ? styles.dropdownContent : styles.dropdownContent2
+          }
+        >
+          <a href="#">Home</a>
+          <a href="#">Major Focus Areas</a>
+          <a href="#">Functions</a>
+          <a href="#">I & E Events</a>
+          <a href="#">Institute's Innovation Council</a>
+          <a href="#">Guidelines</a>
+          <a href="#">Downloads</a>
+          <hr />
         </div>
-      </nav>
+      </div>
     </>
   );
 }

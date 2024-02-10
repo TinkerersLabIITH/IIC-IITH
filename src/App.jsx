@@ -11,11 +11,12 @@ import IandE from "./Components/IandE/IandE";
 function App() {
   return (
     <div className={styles.App}>
-      <Major_Functions/>
+      <Header />
+      <Major_Functions />
       <IandE />
-      <IIC_Council/>
-      <Mom/>
-      <AnnualReport/>
+      <IIC_Council />
+      <Mom />
+      <AnnualReport />
     </div>
   );
 }
