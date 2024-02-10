@@ -12,6 +12,9 @@ function App() {
   return (
     <div className={styles.App}>
       <IandE />
+      <IIC_Council/>
+      <Mom/>
+      <AnnualReport/>
     </div>
   );
 }
