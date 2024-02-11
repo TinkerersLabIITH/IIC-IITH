@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "./App.module.css";
 import AnnualReport from "./Components/AnnualReport/AnnualReport";
 import Mom from "./Components/Mom/Mom";
@@ -17,6 +16,7 @@ function App() {
       <IIC_Council />
       <Mom />
       <AnnualReport />
+      <Footer />
     </div>
   );
 }

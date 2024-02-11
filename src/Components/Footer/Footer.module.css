@@ -1,0 +1,29 @@
+.container {
+    background-image: url("src/assets/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 0;
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.container h3 {
+    color: orange;
+    font-size: 24px;
+}
+
+.foot_p {
+    color: white;
+    font-size: 17px;
+}
+
+.lasth3 {
+    margin-top: 20px;
+}
