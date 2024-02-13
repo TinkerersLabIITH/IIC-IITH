@@ -20,6 +20,15 @@ function Header({ handler }) {
     x.addListener(myFunction);
     return () => x.removeListener(myFunction);
   }, []);
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
+  };
 
   return (
     <>
@@ -35,25 +44,25 @@ function Header({ handler }) {
                 />
               </li>
               <li className={styles.other}>
-                <a href="#">Home</a>
+                <a href="#" onClick={(e) => handleSmoothScroll(e, 'home')}>Home</a>
               </li>
               <li className={styles.other}>
-                <a href="#">Major Focus Areas</a>
+                <a href="#" onClick={(e) => handleSmoothScroll(e, 'mf')}>Major Focus Areas</a>
               </li>
               <li className={styles.other}>
-                <a href="#">Functions</a>
+                <a href="#" onClick={(e) => handleSmoothScroll(e, 'functions')}>Functions</a>
               </li>
               <li className={styles.other}>
-                <a href="#">I & E Events</a>
+                <a href="#" onClick={(e) => handleSmoothScroll(e, 'ievvents')}>I & E Events</a>
               </li>
               <li className={styles.other} onClick={() => handler(ic)}>
-                <a href="#">Institute's Innovation Council</a>
+                <a href="#" onClick={(e) => handleSmoothScroll(e, 'iic')}>Institute's Innovation Council</a>
               </li>
               <li className={styles.other}>
-                <a href="#">Guidelines</a>
+                <a href="#" onClick={(e) => handleSmoothScroll(e, 'guidelines')}>Guidelines</a>
               </li>
               <li className={styles.other}>
-                <a href="#">Downloads</a>
+                <a href="#" onClick={(e) => handleSmoothScroll(e, 'mom')}>Downloads</a>
               </li>
               <li className={styles.dropdown}>
                 <a
