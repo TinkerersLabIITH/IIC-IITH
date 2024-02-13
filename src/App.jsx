@@ -6,11 +6,12 @@ import Header from "./Components/Header/Header";
 import IIC_Council from "./Components/IIC_Council/IIC_Council";
 import Major_Functions from "./Components/Major_Functions/Major_Functions";
 import IandE from "./Components/IandE/IandE";
-
+import CoverImage from "./Components/Starter/startImg";
 function App() {
   return (
     <div className={styles.App}>
       <Header />
+      <CoverImage/>
       <Major_Functions />
       <IandE />
       <IIC_Council />
