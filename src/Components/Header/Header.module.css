@@ -1,4 +1,9 @@
-.header {}
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Adjust this as needed */
+    z-index: 1000; /* Ensure it's above other content */
+  }
 
 .navbar {
     background-color: white;
