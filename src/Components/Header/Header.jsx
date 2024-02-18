@@ -4,7 +4,7 @@ import Hamburger from "hamburger-react";
 
 function Header({ handler }) {
   const [isActive, setIsActive] = useState(false);
-
+  const [activeItem, setActiveItem] = useState(null);
   const changeState = (event) => {
     // 👇️ toggle isActive state on click
     setIsActive((current) => !current);
@@ -22,6 +22,7 @@ function Header({ handler }) {
   }, []);
   const handleSmoothScroll = (e, targetId) => {
     e.preventDefault();
+    setActiveItem(targetId);
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
       targetElement.scrollIntoView({
@@ -43,25 +44,25 @@ function Header({ handler }) {
                   alt="Logo"
                 />
               </li>
-              <li className={styles.other}>
+              <li className={`${styles.other} ${activeItem === 'home' && styles.active}`}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'home')}>Home</a>
               </li>
-              <li className={styles.other}>
+              <li className={`${styles.other} ${activeItem === 'mf' && styles.active}`}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'mf')}>Major Focus Areas</a>
               </li>
-              <li className={styles.other}>
+              <li className={`${styles.other} ${activeItem === 'functions' && styles.active}`}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'functions')}>Functions</a>
               </li>
-              <li className={styles.other}>
+              <li className={`${styles.other} ${activeItem === 'ievvents' && styles.active}`}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'ievvents')}>I & E Events</a>
               </li>
-              <li className={styles.other} onClick={() => handler(ic)}>
+              <li className={`${styles.other} ${activeItem === 'iic' && styles.active}`} onClick={() => handler(ic)}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'iic')}>Institute's Innovation Council</a>
               </li>
-              <li className={styles.other}>
+              <li className={`${styles.other} ${activeItem === 'guidelines' && styles.active}`}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'guidelines')}>Guidelines</a>
               </li>
-              <li className={styles.other}>
+              <li className={`${styles.other} ${activeItem === 'mom' && styles.active}`}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'mom')}>Downloads</a>
               </li>
               <li className={styles.dropdown}>
