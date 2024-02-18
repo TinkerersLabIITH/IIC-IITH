@@ -179,5 +179,25 @@ hr {
         width: calc(100% - 250px);
     }
 }
+.active-section {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .active-section.active {
+    opacity: 1;
+  }
+
+  /* Visible class */
+.visible {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hidden class */
+  .hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
 
 /* 1100px */

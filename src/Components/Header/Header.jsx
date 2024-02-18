@@ -5,9 +5,24 @@ import navimag from "../../assets/logo.png"
 function Header({ handler }) {
   const [isActive, setIsActive] = useState(false);
   const [activeItem, setActiveItem] = useState(null);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
   const changeState = (event) => {
     setIsActive((current) => !current);
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos, visible]);
 
   useEffect(() => {
     const x = window.matchMedia("(min-width: 1100px)");
@@ -27,13 +42,19 @@ function Header({ handler }) {
       targetElement.scrollIntoView({
         behavior: 'smooth',
       });
+      targetElement.classList.add("active-section");
+      // Remove the class after the transition is complete
+      setTimeout(() => {
+        targetElement.classList.remove("active-section");
+      }, 500); // Adjust this timeout value to match the transition duration in CSS
     }
   };
 
   return (
     <>
-      <section id="home">
-        <div className={styles.header}>
+      <section className={`${styles.header} ${visible ? styles.visible : styles.hidden}`} id="home">
+        
+        <div className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
           <nav className={styles.navbar}>
             <ul className={styles.navList}>
               <li className={styles.logo}>
