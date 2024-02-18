@@ -11,14 +11,14 @@ const CoverImage = () => {
         alt=""
         id="large"
         className={styles.large}
-        style={{ width: '100%', paddingTop: '120px', paddingLeft: '20%', paddingRight: '20%', paddingBottom: '50px', opacity: 0, animation: `${styles.fadeIn} 3s forwards` }}
+        style={{ width: '100%', paddingTop: '120px', paddingLeft: '20%', paddingRight: '20%', paddingBottom: '50px', opacity: 0, animation: `${styles.fadeIn} 5s forwards` }}
       />
       <img
         src={coverPhone}
         id="small"
         alt=""
         className={styles.small}
-        style={{ width: '100%', paddingTop: '100px', paddingBottom: '20px', opacity: 0, animation: `${styles.fadeIn} 3s forwards` }}
+        style={{ width: '100%', paddingTop: '100px', paddingBottom: '20px', opacity: 0, animation: `${styles.fadeIn} 5s forwards` }}
       />
     </div>
   );
