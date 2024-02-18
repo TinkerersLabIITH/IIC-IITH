@@ -1,12 +1,11 @@
 // creating a component and exporting it
 import React from "react";
-import { useState } from "react";
 import styles from "./Footer.module.css";
-
+import bgimage from "../../assets/1.jpg"
 function Footer() {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} style={{backgroundImage: `url(${bgimage})` }}>
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12">
             <h3>Address</h3>

@@ -6,6 +6,17 @@
       font-size: 40px;
     }
   }
+  @media (max-width: 768px) {
+    .large {
+      display: none !important;
+      opacity: 1;
+      animation: none; 
+    }
+  
+    .small {
+      display: block !important; 
+    }
+  }
   
   @keyframes fadeIn {
     from {
