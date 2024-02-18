@@ -1,9 +1,11 @@
 .header {
     position: sticky;
     top: 0;
-    background-color: white; /* Adjust this as needed */
-    z-index: 1000; /* Ensure it's above other content */
-  }
+    background-color: white;
+    /* Adjust this as needed */
+    z-index: 1000;
+    /* Ensure it's above other content */
+}
 
 .navbar {
     background-color: white;
@@ -54,6 +56,11 @@
     text-decoration: none;
     font-size: large;
     font-weight: 500;
+}
+
+.active {
+    background-color: orange;
+    border-radius: 50%;
 }
 
 .navList li a:hover {
