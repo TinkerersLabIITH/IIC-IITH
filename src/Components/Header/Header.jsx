@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 import styles from "./Header.module.css";
 import Hamburger from "hamburger-react";
-
+import navimag from "../../assets/logo.png"
 function Header({ handler }) {
   const [isActive, setIsActive] = useState(false);
   const [activeItem, setActiveItem] = useState(null);
   const changeState = (event) => {
-    // 👇️ toggle isActive state on click
     setIsActive((current) => !current);
   };
 
@@ -40,7 +39,7 @@ function Header({ handler }) {
               <li className={styles.logo}>
                 <img
                   className={styles.img_class}
-                  src="src/assets/logo.png"
+                  src={navimag}
                   alt="Logo"
                 />
               </li>

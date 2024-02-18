@@ -11,6 +11,8 @@
     background-color: white;
     padding-top: 2vh;
     text-align: center;
+    position: relative; 
+    z-index: 1001;
 }
 
 .navList {

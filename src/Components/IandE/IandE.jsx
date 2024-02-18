@@ -38,7 +38,7 @@ const IandEdetails = [
 function IandE() {
   const renderHighlights = () => {
     return IandEdetails.map((post, index) => (
-      <div key={index} className="col-lg-4">
+      <div key={index} className="col-lg-4" id ="ievvents">
         <div className="card shadow" style={{ marginBottom: "40px" }}>
           <img
             src={post.image}

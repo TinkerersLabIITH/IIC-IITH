@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-
+import styles from "./Mom.module.css"
 const Mom = () => {
   const meetingData = [
     {
@@ -92,8 +92,8 @@ const Mom = () => {
 
   return (
     <Fragment>
-      <section className="section-padding" id="mom">
-        <div className="div-padding"></div>
+      <section className={styles.sectionpadding} id="mom">
+        <div className={styles.divpadding}></div>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -113,7 +113,7 @@ const Mom = () => {
                     <h6>
                       <b>{post.date}</b>
                     </h6>
-                    <a href={`./files/mom/${post.link}`}>Download</a>
+                    <a href={`./files/mom/${post.link}`} style={{ textDecoration: 'none' }}>Download</a>
                   </li>
                 ))}
               </ul>
