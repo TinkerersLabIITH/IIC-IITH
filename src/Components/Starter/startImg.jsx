@@ -1,10 +1,10 @@
 import React from 'react';
-import cover from "../../assets/imagenews.webp";
+import cover from "../../assets/bvr.jpeg";
 import coverPhone from "../../assets/cover-mobile.jpeg";
 import styles from "./startimg.module.css";
 
 const CoverImage = () => {
-  const languages = ['Innovation', 'IPR', 'Entreprenuship'];
+  const languages = ['Invention','Initiative','Innovation', 'IPR', 'Entreprenuship'];
 
   return (
     <div className={styles.coverContainer}>
