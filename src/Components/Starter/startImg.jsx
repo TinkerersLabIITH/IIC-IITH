@@ -1,5 +1,5 @@
 import React from 'react';
-import cover from "../../assets/bvr.jpeg";
+import cover from "../../assets/imagenews.webp";
 import coverPhone from "../../assets/cover-mobile.jpeg";
 import styles from "./startimg.module.css";
 
