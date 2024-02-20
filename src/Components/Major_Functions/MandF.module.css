@@ -8,3 +8,9 @@
   .divpadding {
     padding-top:3vh;
   }
+  .highlightimage {
+    transition: transform 0.3s; /* Add transition for smooth scaling */
+  }
+  .highlightimage:hover{
+    transform: scale(1.1);
+  }
