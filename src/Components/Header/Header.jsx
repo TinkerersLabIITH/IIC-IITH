@@ -46,7 +46,7 @@ function Header({ handler }) {
       // Remove the class after the transition is complete
       setTimeout(() => {
         targetElement.classList.remove("active-section");
-      }, 500); // Adjust this timeout value to match the transition duration in CSS
+      }, 500);
     }
   };
 
@@ -102,13 +102,13 @@ function Header({ handler }) {
               isActive ? styles.dropdownContent : styles.dropdownContent2
             }
           >
-            <a href="#">Home</a>
-            <a href="#">Major Focus Areas</a>
-            <a href="#">Functions</a>
-            <a href="#">I & E Events</a>
-            <a href="#">Institute's Innovation Council</a>
-            <a href="#">Guidelines</a>
-            <a href="#">Downloads</a>
+           <a href="#" onClick={(e) => handleSmoothScroll(e, 'home')}>Home</a>
+           <a href="#" onClick={(e) => handleSmoothScroll(e, 'mf')}>Major Focus Areas</a>
+           <a href="#" onClick={(e) => handleSmoothScroll(e, 'functions')}>Functions</a>
+           <a href="#" onClick={(e) => handleSmoothScroll(e, 'ievvents')}>I & E Events</a>
+           <a href="#" onClick={(e) => handleSmoothScroll(e, 'iic')}>Institute's Innovation Council</a>
+           <a href="#" onClick={(e) => handleSmoothScroll(e, 'guidelines')}>Guidelines</a>
+           <a href="#" onClick={(e) => handleSmoothScroll(e, 'mom')}>Downloads</a>
             <hr />
           </div>
         </div>
