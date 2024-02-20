@@ -60,14 +60,15 @@
     font-weight: 500;
 }
 
-.active {
-    background-color: orange;
-    border-radius: 50%;
+.active a{
+    color:orange !important;
+    font-weight: 700;
+
 }
 
-.navList li a:hover {
+/* .navList li a:hover {
     color: #111;
-}
+} */
 
 .dropdown {
     display: inline-flex;
