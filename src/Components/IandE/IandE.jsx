@@ -39,7 +39,7 @@ function IandE() {
   const renderHighlights = () => {
     return IandEdetails.map((post, index) => (
       <div key={index} className="col-lg-4" id ="ievvents">
-        <div className="card shadow" style={{ marginBottom: "40px" }}>
+        <div className={styles.highlightcard} style={{ marginBottom: "40px" }}>
           <img
             src={post.image}
             style={{ width: "100%", padding: "2%", margin: "auto" }}
@@ -50,7 +50,7 @@ function IandE() {
               <b>{post.eventdate}</b>
             </h6>
             {post.registration_link && (
-              <a href={post.registration_link} className="btn btn-primary">
+              <a href={post.registration_link} className="btn btn-primary" style={{ marginRight: "10px" }}>
                 Registration Link
               </a>
             )}

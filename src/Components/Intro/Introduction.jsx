@@ -11,7 +11,7 @@ const IntroductionSection = () => {
             <div className="col-lg-3">
               <h2><b>Highlight</b></h2>
               <hr style={{ border: '1.5px solid coral', width: '100%', textAlign: 'left' }} />
-              <div className="card shadow" style={{ marginBottom: '40px' }}>
+              <div className={styles.highlightcard} style={{ marginBottom: '40px' }}>
                 <img src={wow} style={{ width: '100%', padding: '2%', margin: 'auto' }} />
               
 <div style={{ padding: '5%' }}>

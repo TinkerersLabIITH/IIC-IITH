@@ -8,3 +8,11 @@
   .divpadding {
     padding-top:3vh;
   }
+  .highlightcard {
+    transition: transform 0.3s; /* Add transition for smooth scaling */
+  }
+  
+  .highlightcard:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+  }
+  

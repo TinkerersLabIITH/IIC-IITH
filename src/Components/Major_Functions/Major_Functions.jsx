@@ -44,6 +44,7 @@ const MajorFunctions = () => {
               </div>
               <div className="col-lg-4">
                 <img
+                className={styles.highlightimage}
                   src={Ratingpic}
                   style={{ width: "100%" }}
                   alt="Rating Certificate"
@@ -101,6 +102,7 @@ const MajorFunctions = () => {
               </div>
               <div className="col-lg-4">
                 <img
+                 className={styles.highlightimage}
                   src={Establishment}
                   style={{ width: "100%" }}
                   alt="Establishment Certificate"
