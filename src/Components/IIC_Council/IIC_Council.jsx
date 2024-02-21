@@ -1,6 +1,8 @@
 import React from "react";
-import "./IIC-council.css";
-
+import "./IIC-council.module.css";
+import Odometer from "./Odometer"
+import Odometerstud from "./OdometerStud"
+import Odometerexp from "./OdometerExpert";
 const IIC_Council = () => {
   return (
     <>
@@ -49,7 +51,14 @@ const IIC_Council = () => {
             style={{ border: "1.5px solid coral", width: "50%" }}
             align="left"
           />
-
+            <div>
+        <p style={{fontWeight:700,fontSize:'1.5rem'}}>Staff Representation : </p>
+        <Odometer/>
+        <p style={{fontWeight:700,fontSize:'1.5rem'}}>Expert Representation : </p>
+        <Odometerexp/>
+        <p style={{fontWeight:700,fontSize:'1.5rem'}}>Student Representation : </p>
+        <Odometerstud/>
+      </div>
           <h4>
             <b>1. Staff Representation</b>
             <br />
