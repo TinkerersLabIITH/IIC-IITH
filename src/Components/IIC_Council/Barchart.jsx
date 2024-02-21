@@ -7,7 +7,7 @@ const BarCharts = () => {
       <h2>Bar Chart Example</h2>
       <BarChart
       xAxis={[{ scaleType: 'band', data: ['Staff Rep', 'Expert Rep', 'Student Rep'] }]}
-      series={[{ data: [19,6,7] }, { data: [0,0,0] }, { data: [0,0,0] }]}
+      series={[{ data: [19,6,7] }]}
       width={500}
       height={300}
     />
