@@ -10,7 +10,7 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect} data-bs-theme="dark">
+    <Carousel activeIndex={index} onSelect={handleSelect} data-bs-theme="dark" indicators={false}>
       <Carousel.Item>
         <ExampleCarouselImage  image={0} /> 
         {/* <Carousel.Caption>
