@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./Header.module.css";
 import Hamburger from "hamburger-react";
 import navimag from "../../assets/logo.png"
+import vector from "../../assets/vector.jpeg"
 function Header({ handler }) {
   const [isActive, setIsActive] = useState(false);
   const [activeItem, setActiveItem] = useState(null);
@@ -52,10 +53,10 @@ function Header({ handler }) {
 
   return (
     <>
-      <section className={`${styles.header} ${visible ? styles.visible : styles.hidden}`} id="home">
+      <section className={`${styles.header} ${visible ? styles.visible : styles.hidden}`} id="home" >
         
         <div className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
-          <nav className={styles.navbar}>
+          <nav className={styles.navbar} >
             <ul className={styles.navList}>
               <li className={styles.logo}>
                 <img

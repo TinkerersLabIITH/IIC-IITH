@@ -1,7 +1,9 @@
-/* App.module.css */
+
 
 .App {
     margin: 0 !important;
-    padding: 0 !important
+    padding: 0 !important;
+    background-size: cover;
+    background-position: center center;
   }
   

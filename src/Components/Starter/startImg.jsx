@@ -1,6 +1,6 @@
 import React from 'react';
 import cover from "../../assets/imagenews.webp";
-import coverPhone from "../../assets/cover-mobile.jpeg";
+import coverPhone from "../../assets/vector.jpeg";
 import styles from "./startimg.module.css";
 
 const CoverImage = () => {
@@ -15,13 +15,13 @@ const CoverImage = () => {
         className={styles.large}
         style={{ opacity: 0, animation: `${styles.fadeIn} 5s forwards` }}
       />
-      {/* <img
+      <img
         src={coverPhone}
         id="small"
         alt=""
         className={styles.small}
         style={{ opacity: 0, animation: `${styles.fadeIn} 5s forwards` }}
-      /> */}
+      />
        <div className={styles.overlayContent}>
         <h1 className={styles.title}>I love 
 <div className={styles.textcontainer}>
