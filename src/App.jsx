@@ -9,10 +9,9 @@ import IandE from "./Components/IandE/IandE";
 import CoverImage from "./Components/Starter/startImg";
 import IntroductionSection from "./Components/Intro/Introduction";
 import ImageCarousel from "./Components/Imageslider/ImageSlider";
-import vector from "./assets/vector.jpeg"
 function App() {
   return (
-    <div className={styles.App} style={{backgroundImage: `url(${vector})` }}>
+    <div className={styles.App} >
       <Header />
       <CoverImage/>
       <IntroductionSection/>
