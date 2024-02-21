@@ -1,6 +1,6 @@
 import React from 'react';
 import cover from "../../assets/imagenews.webp";
-import coverPhone from "../../assets/cover-mobile.jpeg";
+import coverPhone from "../../assets/vector.jpeg";
 import styles from "./startimg.module.css";
 
 const CoverImage = () => {

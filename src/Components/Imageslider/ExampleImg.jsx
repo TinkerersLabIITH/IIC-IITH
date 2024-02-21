@@ -8,11 +8,11 @@ import img5 from "../../assets/imageslider5.jpeg";
 const ExampleCarouselImage = ({ text, image }) => {
   const images = [img1, img2, img3, img4, img5];
   return (
-    <div>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',marginTop:'1rem' }}>
       <img
         src={images[image]}
         alt="Carousel Slide"
-        style={{ width: '100%', height: 'auto' }}
+        style={{ width: '60%', height: 'auto', borderRadius: '5rem' }} 
       />
       <p>{text}</p>
     </div>

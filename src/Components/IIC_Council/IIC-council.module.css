@@ -1,0 +1,81 @@
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   }
+
+   .table-content {
+    padding: 5px;
+   }
+
+   .table-heading {
+    padding: 7px;
+    font-size: 20px;
+    background-color: #f1ae3f;
+   }
+
+   td {
+    font-size: 15px;
+    font-style: normal;
+   }
+
+   td,
+   th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+   }
+
+   tr:nth-child(odd) {
+    background-color: #dddddd;
+   }
+
+
+   .odometer {
+    height: 1.5em;
+    width: 100%;
+    padding-top: 1rem;
+    color: #00AEEF;
+    text-align: center;
+    display: inline-block;
+    background: #fff;
+    font-size: 4vw;
+    font-weight: 500px;
+  }
+  
+  .digit {
+    margin: -0.5vw;
+    display: inline-block;
+    height: 1.5em;
+    width: 0.59em;
+    overflow: hidden;
+    margin-right: 0.5rem; 
+  }
+  
+  .digitcontainer {
+    line-height: 1.5em;
+  }
+  
+  .digitcontainerThousand {
+    line-height: 1.5em;
+    animation: slide 5s infinite ease;
+  }
+  .digitcontainerHundred {
+    line-height: 1.5em;
+    animation: slide 5s infinite ease; /* You can adjust animation as needed */
+  }
+  
+  /* Add styles for other digit types (hundred, ten, one) */
+  
+  @keyframes slide {
+    0% {
+      transform: translateY(-10em);
+    }
+    40% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
