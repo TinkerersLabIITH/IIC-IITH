@@ -2,6 +2,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import bgimage from "../../assets/1.jpg"
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -39,7 +40,7 @@ function Footer() {
             <p className={styles.foot_p}>MOE Innovation Cell</p>
           </div>
         </div>
-        <h3 className={styles.lasth3}>IITH Website | Web Team</h3>
+        <Link to ="/web-team"><h3 className={styles.lasth3}>IITH Website | Web Team</h3> </Link>
       </div>
     </>
   );
