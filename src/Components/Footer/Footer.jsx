@@ -40,7 +40,9 @@ function Footer() {
             <p className={styles.foot_p}>MOE Innovation Cell</p>
           </div>
         </div>
-        <Link to ="/web-team"><h3 className={styles.lasth3}>IITH Website | Web Team</h3> </Link>
+        <h3 className={styles.lasth3}>
+                <a href="https://www.iith.ac.in" className={styles.link}>IITH Website</a> | <Link to="/web-team" className={styles.link}>Web Team</Link>
+            </h3>
       </div>
     </>
   );
