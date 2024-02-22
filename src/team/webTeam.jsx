@@ -4,6 +4,8 @@ import Header from "../Components/Header/Header";
 import pic from "../assets/mitallemam.jpeg"
 import pic2 from "../assets/kaif.jpeg"
 import pic4 from "../assets/aniket.jpeg"
+import '@fortawesome/fontawesome-free/css/all.css';
+import "./webteam.css"
 const WebTeam=()=>{
     return(
         <Fragment>
