@@ -38,6 +38,17 @@ function ControlledCarousel() {
           <h3>Fourth slide label</h3>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption> */}
+      
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage  image={4} /> {/* Pass the image prop */}
+        {/* <Carousel.Caption>
+          <h3>Fourth slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </Carousel.Caption> */}
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage  image={5} />
       </Carousel.Item>
     </Carousel>
   );

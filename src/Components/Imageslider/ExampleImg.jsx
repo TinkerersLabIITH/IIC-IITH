@@ -4,9 +4,10 @@ import img2 from "../../assets/imageslider2.jpeg";
 import img3 from "../../assets/sliderimage3.jpeg";
 import img4 from "../../assets/imageslider4.webp";
 import img5 from "../../assets/imageslider5.jpeg";
+import img6 from "../../assets/iicfirstpage.png"
 
 const ExampleCarouselImage = ({ text, image }) => {
-  const images = [img1, img2, img3, img4, img5];
+  const images = [img1, img2, img3, img4, img5,img6];
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',marginTop:'1rem' }}>
       <img
