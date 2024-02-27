@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <div className={styles.container} style={{backgroundImage: `url(${bgimage})` }}>
+      <div className={styles.container} style={{ backgroundImage: `url(${bgimage})` }}>
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12">
             <h3>Address</h3>
@@ -23,7 +23,7 @@ function Footer() {
               <br /> Director, IIT Hyderabad
               <br /> President, IIC, IIT Hyderabad
               <br />
-              director.iith.an.in
+              <a className={styles.linkemail} href="mailto:director@iith.ac.in">director.iith.ac.in</a>
             </p>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12">
@@ -32,7 +32,8 @@ function Footer() {
               Ms Mitalee Agrawal
               <br /> PRO, IIT Hyderabad
               <br /> Secretary, IIC, IIT Hyderabad
-              <br /> pro.iith.ac.in
+              <br />
+              <a className={styles.linkemail} href="mailto:pro.iith.ac.in">pro.iith.ac.in</a>
             </p>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12">
@@ -41,8 +42,8 @@ function Footer() {
           </div>
         </div>
         <h3 className={styles.lasth3}>
-                <a href="https://www.iith.ac.in" className={styles.link}>IITH Website</a> | <Link to="/web-team" className={styles.link}>Web Team</Link>
-            </h3>
+          <a href="https://www.iith.ac.in" className={styles.link}>IITH Website</a> | <Link to="/web-team" className={styles.link}>Web Team</Link>
+        </h3>
       </div>
     </>
   );

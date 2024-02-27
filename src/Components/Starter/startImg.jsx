@@ -11,9 +11,9 @@ const CoverImage = () => {
       <img
         src={cover}
         alt=""
-        id="large"
         className={styles.large}
-        style={{ opacity: 0, animation: `${styles.fadeIn} 5s forwards` }}
+        style={{ opacity: 0, animation: `${styles.fadeIn} 5s forwards` }}     
+        id="large"
       />
       <img
         src={coverPhone}
@@ -36,4 +36,3 @@ const CoverImage = () => {
 };
 
 export default CoverImage;
-

@@ -54,25 +54,25 @@ function Header({ handler }) {
   return (
     <>
       <section className={`${styles.header} ${visible ? styles.visible : styles.hidden}`} id="home" >
-        
+
         <div className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
           <nav className={styles.navbar} >
             <ul className={styles.navList}>
               <li className={styles.logo}>
-                <img
-                  className={styles.img_class}
-                  src={navimag}
-                  alt="Logo"
-                />
+                <a href="https://www.iith.ac.in" target="_blank" rel="noopener noreferrer">
+                  <img
+                    className={styles.img_class}
+                    src={navimag}
+                    alt="Logo"
+                  />
+                </a>
+
               </li>
               <li className={`${styles.other} ${activeItem === 'home' && styles.active}`}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'home')}>Home</a>
               </li>
               <li className={`${styles.other} ${activeItem === 'mf' && styles.active}`}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'mf')}>Major Focus Areas</a>
-              </li>
-              <li className={`${styles.other} ${activeItem === 'functions' && styles.active}`}>
-                <a href="#" onClick={(e) => handleSmoothScroll(e, 'functions')}>Functions</a>
               </li>
               <li className={`${styles.other} ${activeItem === 'ievvents' && styles.active}`}>
                 <a href="#" onClick={(e) => handleSmoothScroll(e, 'ievvents')}>I & E Events</a>
@@ -103,13 +103,12 @@ function Header({ handler }) {
               isActive ? styles.dropdownContent : styles.dropdownContent2
             }
           >
-           <a href="#" onClick={(e) => handleSmoothScroll(e, 'home')}>Home</a>
-           <a href="#" onClick={(e) => handleSmoothScroll(e, 'mf')}>Major Focus Areas</a>
-           <a href="#" onClick={(e) => handleSmoothScroll(e, 'functions')}>Functions</a>
-           <a href="#" onClick={(e) => handleSmoothScroll(e, 'ievvents')}>I & E Events</a>
-           <a href="#" onClick={(e) => handleSmoothScroll(e, 'iic')}>Institute's Innovation Council</a>
-           <a href="#" onClick={(e) => handleSmoothScroll(e, 'guidelines')}>Guidelines</a>
-           <a href="#" onClick={(e) => handleSmoothScroll(e, 'mom')}>Downloads</a>
+            <a href="#" onClick={(e) => handleSmoothScroll(e, 'home')}>Home</a>
+            <a href="#" onClick={(e) => handleSmoothScroll(e, 'mf')}>Major Focus Areas</a>
+            <a href="#" onClick={(e) => handleSmoothScroll(e, 'ievvents')}>I & E Events</a>
+            <a href="#" onClick={(e) => handleSmoothScroll(e, 'iic')}>Institute's Innovation Council</a>
+            <a href="#" onClick={(e) => handleSmoothScroll(e, 'guidelines')}>Guidelines</a>
+            <a href="#" onClick={(e) => handleSmoothScroll(e, 'mom')}>Downloads</a>
             <hr />
           </div>
         </div>
