@@ -54,8 +54,9 @@
   }
   
   .title {
-    color: black;
+    color:white;
     font-size: 48px;
+    font-weight: 700;
   }
   
   .subtitle {
@@ -70,11 +71,15 @@
   }
   
   .textcontainer span {
-    height: 2.3rem;
-    color: lightcoral;
+    height: 4.3rem;
+    background: linear-gradient(to right, rgb(203, 19, 50), rgb(189, 141, 52), green, rgb(188, 50, 188));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     animation: moveUp 10s linear infinite;
     margin-bottom: 1.5rem; 
-  }
+}
+
   
   @keyframes moveUp {
     0% {
@@ -86,35 +91,35 @@
     }
   
     15% {
-      transform: translateY(-3.7rem);
+      transform: translateY(-5rem);
     }
   
     25% {
-      transform: translateY(-3.7rem);
+      transform: translateY(-5rem);
     }
   
     35% {
-      transform: translateY(-7.7rem);
+      transform: translateY(-10.2rem);
     }
   
     45% {
-      transform: translateY(-7.7rem);
+      transform: translateY(-10.2rem);
     }
   
     55% {
-      transform: translateY(-11.6rem);
+      transform: translateY(-15.1rem);
     }
   
     65% {
-      transform: translateY(-11.6rem);
+      transform: translateY(-15.1rem);
     }
   
     75% {
-      transform: translateY(-15.2rem);
+      transform: translateY(-20.2rem);
     }
   
     95% {
-      transform: translateY(-15.2rem);
+      transform: translateY(-20.2rem);
     }
   
     100% {
