@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
 import cover from "../../assets/iicfirstpage.png";
 import coverPhone from "../../assets/vector.jpeg";
 import styles from "./startimg.module.css";
 
 const CoverImage = () => {
-  const languages = ['Invention','Initiative','Innovation', 'IPR', 'Entreprenuship'];
+  const languages = [
+    "Invention",
+    "Initiative",
+    "Innovation",
+    "IPR",
+    "Entreprenuship",
+  ];
 
   return (
     <div className={styles.coverContainer}>
@@ -12,7 +18,7 @@ const CoverImage = () => {
         src={cover}
         alt=""
         className={styles.large}
-        style={{ opacity: 0, animation: `${styles.fadeIn} 5s forwards` }}     
+        style={{ opacity: 0, animation: `${styles.fadeIn} 5s forwards` }}
         id="large"
       />
       <img
@@ -22,14 +28,17 @@ const CoverImage = () => {
         className={styles.small}
         style={{ opacity: 0, animation: `${styles.fadeIn} 5s forwards` }}
       />
-       <div className={styles.overlayContent}>
-        <h1 className={styles.title}>I love 
-<div className={styles.textcontainer}>
-  {languages.map((language, index) => (
-    <span key={index} style={{ '--i': index }}>{language}</span>
-  ))}
-</div>
-</h1> 
+      <div className={styles.overlayContent}>
+        <h1 className={styles.title}>
+          I love
+          <div className={styles.textcontainer}>
+            {languages.map((language, index) => (
+              <span key={index} style={{ "--i": index }}>
+                {language}
+              </span>
+            ))}
+          </div>
+        </h1>
       </div>
     </div>
   );
