@@ -10,6 +10,8 @@ import IandE from "./Components/IandE/IandE";
 import CoverImage from "./Components/Starter/startImg";
 import IntroductionSection from "./Components/Intro/Introduction";
 import ImageCarousel from "./Components/Imageslider/ImageSlider";
+import YTframe from './Components/YTframe.jsx';
+
 const HomePage=()=>{
     return(
    <Fragment>
@@ -17,10 +19,12 @@ const HomePage=()=>{
         <Header />
         <CoverImage/>
         <IntroductionSection/>
-        <ImageCarousel/>
         <Major_Functions />
+        <ImageCarousel/>
+        
         <IandE />
         <IIC_Council />
+        <YTframe videoId="kVFelDY0D7g" />
         <Mom />
         <AnnualReport />
         <Footer />

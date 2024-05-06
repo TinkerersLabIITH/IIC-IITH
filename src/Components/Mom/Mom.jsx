@@ -89,6 +89,7 @@ const Mom = () => {
       link: "12th_IIC_Meeting_MoM.pdf",
     },
   ];
+  const reversedMeetingData = meetingData.slice().reverse();
 
   return (
     <Fragment>
@@ -107,7 +108,7 @@ const Mom = () => {
             </div>
             <div className="col-lg-12" id="press">
               <ul>
-                {meetingData.map((post, index) => (
+                {reversedMeetingData.map((post, index) => (
                   <li key={index}>
                     <h6>{post.title}</h6>
                     <h6>
