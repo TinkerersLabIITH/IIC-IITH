@@ -83,11 +83,27 @@ const Mom = () => {
     {
       layout: "post",
       title:
-        " Minutes of the meeting of 121th Institution‘s Innovation Council Meeting, Sep 15, 2023",
+        "Minutes of the meeting of 12th Institution‘s Innovation Council Meeting, Sep 15, 2023",
       categories: "mom",
       date: "Sep 15, 2023",
       link: "12th_IIC_Meeting_MoM.pdf",
     },
+    {
+      layout: "post",
+      title:
+        "Minutes of the meeting of 13th Institution‘s Innovation Council Meeting, Jan 03, 2024",
+      categories: "mom",
+      date: "Jan 03, 2024",
+      link: "13th_IIC_Meeting_MoM.pdf",
+    },
+    {
+      layout: "post",
+      title:
+        "Minutes of the meeting of 14th Institution‘s Innovation Council Meeting, Mar 05, 2024",
+      categories: "mom",
+      date: "Mar 05, 2024",
+      link: "14th_IIC_Meeting_MoM.pdf",
+    }
   ];
   const reversedMeetingData = meetingData.slice().reverse();
 

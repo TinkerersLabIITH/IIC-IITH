@@ -98,10 +98,10 @@ const IIC_Council = () => {
                 1.3
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                Innovation Activity Coordinator{" "}
+              Convenor{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Prof Sumohana Channappayya, Former Dean (R&D)
+              Dr. Jayshree Patnaik, Assistant Professor, Dept. of EM
               </td>
             </tr>
             <tr>
@@ -109,10 +109,10 @@ const IIC_Council = () => {
                 1.4
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                Startup Activity Coordinator{" "}
+              Innovation Activity Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Prof S Surya Kumar, Dean (Innovation, Translation & Startups)
+              Ex-officio Dean ITS, IITH (Prof. Suryakumar S)
               </td>
             </tr>
             <tr>
@@ -120,10 +120,10 @@ const IIC_Council = () => {
                 1.5
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                Internship Coordinator{" "}
+              Startup Activity Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Dr Abhinav Kumar, Faculty-in-Charge, Office of Career Services
+              Ex-officio FIC, iTIC, IITH (Dr Aravind Rengan)
               </td>
             </tr>
             <tr>
@@ -131,10 +131,10 @@ const IIC_Council = () => {
                 1.6
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                IPR coordinator{" "}
+              Internship Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Dr Pradeep Kumar Yemula, Faculty-in-Charge, IP Cell
+              Ex-officio FIC, OCS, IITH (Dr. Abhinav Kumar)
               </td>
             </tr>
             <tr>
@@ -142,10 +142,10 @@ const IIC_Council = () => {
                 1.8
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                NIRF coordinator{" "}
+              IPR Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Dr Sai Santosh Kumar Raavi, NIRF Coordinator
+              Ex-officio FIC, IPFC, IITH (Dr. Pradeep Kumar Yemula)
               </td>
             </tr>
             <tr>
@@ -153,20 +153,20 @@ const IIC_Council = () => {
                 1.9
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                Entrepreneurship Coordinator
+              Public Relations Coordinator 
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Dr M P Ganesh, Head, Dept. of Entrepreneurship & Management
+              Ex-officio FIC, PR, IITH (Dr Shiva Ji)
               </td>
             </tr>
             <td className="table-content" style={{ width: "10%" }}>
               1.10
             </td>
             <td className="table-content" style={{ width: "30%" }}>
-              Convenor{" "}
+            Ranking Coordinator{" "}
             </td>
             <td className="table-content" style={{ width: "60%" }}>
-              Dr Nakul Parameswar, Assistant Professor, Dept. of EM
+            Ex-officio Coordinator, Ranking Committee (Dr. Sai Santosh Kumar Raavi)
             </td>
 
             <tr>
@@ -174,10 +174,10 @@ const IIC_Council = () => {
                 1.11
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                Innovation Ambassador
+              Incubation Centre Representative
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Prof Deepak John Mathew, Head, Dept. of Design
+              FIC, FabCI, IITH (Prof. Siva Rama Krishna Vanjari)
               </td>
             </tr>
             <tr>
@@ -220,10 +220,10 @@ const IIC_Council = () => {
                 1.13
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                General Member
+              Innovation Ambassador
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Dr Shiva Ji, FIC-Public Relations
+              Prof. Deepak John Mathew, Professor, Dept of Design
               </td>
             </tr>
             <tr>
@@ -231,13 +231,13 @@ const IIC_Council = () => {
                 1.16
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                General Member
+              Innovation Ambassador
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Prof Ramesh G, Chair - Rural Development Centre
+              Dr. Sandipan Ray, Assistant Professor, Dept of Biotechnology
               </td>
             </tr>
-            <tr>
+            {/* <tr>
               <td className="table-content" style={{ width: "10%" }}>
                 1.17
               </td>
@@ -280,7 +280,7 @@ const IIC_Council = () => {
               <td className="table-content" style={{ width: "60%" }}>
                 Ms Mitalee Agrawal, Public Relations Officer
               </td>
-            </tr>
+            </tr> */}
           </table>
           <br />
           <h4>
@@ -310,10 +310,10 @@ const IIC_Council = () => {
                 2.2
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                Startup / Alumni Entrepreneur{" "}
+                General Member{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Ms Prathyusha Thammineni, President, IITH Alumni Association
+              Ex-officio Chair, Rural Development Centre, IITH (Prof. Satish Regonda)
               </td>
             </tr>
             <tr>
@@ -321,10 +321,10 @@ const IIC_Council = () => {
                 2.3
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                Expert from nearby Industry
+                General Member{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Mr Vinay Chilakapati (CEO, Innomet Advanced Materials Pvt. Ltd.)
+              Ex-officio FIC – Unnat Bharat Abhiyan (UBA), IITH (Dr Prasad S Onkar)
               </td>
             </tr>
             <tr>
@@ -332,10 +332,10 @@ const IIC_Council = () => {
                 2.4
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                FI/ Bank Investor/ Angel Investor/ VC
+                General Member{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Mr Avinash, Bank Manager, Canara Bank, IITH Branch, Ex-officio
+              Ex-officio FIC - Students Affairs, IITH (Dr Prakhar Gupta)
               </td>
             </tr>
             <tr>
@@ -343,15 +343,26 @@ const IIC_Council = () => {
                 2.5
               </td>
               <td className="table-content" style={{ width: "30%" }}>
-                Incubation Centre{" "}
+                General Member{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Dr Siva Rama Krishna Vanjari, Faculty-in-Charge, FabCI
+              Ex-officio FIC - TTO (Prof. B Venkatesham)
               </td>
             </tr>
             <tr>
               <td className="table-content" style={{ width: "10%" }}>
                 2.6
+              </td>
+              <td className="table-content" style={{ width: "30%" }}>
+                General Member{" "}
+              </td>
+              <td className="table-content" style={{ width: "60%" }}>
+              Ex-officio HoD, Dept. of EM (Dr Nakul Parameswar)
+              </td>
+            </tr>
+            <tr>
+              <td className="table-content" style={{ width: "10%" }}>
+                2.7
               </td>
               <td className="table-content" style={{ width: "30%" }}>
                 Patent Expert
@@ -360,6 +371,51 @@ const IIC_Council = () => {
                 Mr Anna Eswara Reddy, Patent Analyst
               </td>
             </tr>
+            <tr>
+              <td className="table-content" style={{ width: "10%" }}>
+                2.8
+              </td>
+              <td className="table-content" style={{ width: "30%" }}>
+                Startup / Alumni Entrepreneur{" "}
+              </td>
+              <td className="table-content" style={{ width: "60%" }}>
+                Ms Prathyusha Thammineni, President, IITH Alumni Association
+              </td>
+            </tr>
+            <tr>
+              <td className="table-content" style={{ width: "10%" }}>
+                2.9
+              </td>
+              <td className="table-content" style={{ width: "30%" }}>
+                Expert from nearby Industry
+              </td>
+              <td className="table-content" style={{ width: "60%" }}>
+              Mr Vinay Chilakapati (CEO, Innomet Advanced Materials Pvt. Ltd.)
+              </td>
+            </tr>
+            <tr>
+              <td className="table-content" style={{ width: "10%" }}>
+                2.10
+              </td>
+              <td className="table-content" style={{ width: "30%" }}>
+                FI/ Bank Investor/ Angel Investor/ VC
+              </td>
+              <td className="table-content" style={{ width: "60%" }}>
+              Ex-Officio Branch Manager, Canara Bank, IITH Kandi Branch 
+              </td>
+            </tr>
+            <tr>
+              <td className="table-content" style={{ width: "10%" }}>
+                2.11
+              </td>
+              <td className="table-content" style={{ width: "30%" }}>
+              IIC Portal Coordinator{" "}
+              </td>
+              <td className="table-content" style={{ width: "60%" }}>
+              Public Relations Officer
+              </td>
+            </tr>
+            
           </table>
           <br />
           <h4>
@@ -380,7 +436,7 @@ const IIC_Council = () => {
                 Startup Activity Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Mr Srijan Shahi, Head, E Cell
+              Head, E Cell, IITH
               </td>
             </tr>
             <tr>
@@ -391,8 +447,7 @@ const IIC_Council = () => {
                 Innovation Activity Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Mr Bapatu Manoj Kumar Reddy, Science &Technology Secretary,
-                Student Gymkhana
+              Science &Technology Secretary, Student Gymkhana, IITH
               </td>
             </tr>
             <tr>
@@ -403,7 +458,7 @@ const IIC_Council = () => {
                 Internship Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Mr Sreejith R, OCS Overall Head, IITH
+              Head, Office of Career Services, IITH
               </td>
             </tr>
             <tr>
@@ -414,7 +469,7 @@ const IIC_Council = () => {
                 IPR Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Mr Samyak Joshi, Head Tinkerer’s Lab, IITH
+              Head, Tinkerer's Lab, IITH
               </td>
             </tr>
             <tr>
@@ -425,10 +480,10 @@ const IIC_Council = () => {
                 Social Media Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Mr Anand Sharma, Media Secretary, Student Gymkhana
+              Media Secretary, Student Gymkhana, IITH
               </td>
             </tr>
-            <tr>
+            {/* <tr>
               <td className="table-content" style={{ width: "10%" }}>
                 3.7
               </td>
@@ -438,7 +493,7 @@ const IIC_Council = () => {
               <td className="table-content" style={{ width: "60%" }}>
                 Mr Vaibhav Kumar, BTech 4th Year, IITH
               </td>
-            </tr>
+            </tr> */}
           </table>
         </div>
       </section>

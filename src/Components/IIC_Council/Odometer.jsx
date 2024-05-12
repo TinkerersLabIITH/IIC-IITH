@@ -4,10 +4,10 @@ const Odometer = () => {
   return (
     <div className={styles.odometer}>
       <div className={styles.digit}>
-        <div className={styles.digitcontainerThousand}>1 6 5 4 3 2 1 0 9 8 1</div>
+        <div className={styles.digitcontainerThousand}>1 1 5 4 3 2 1 0 9 8 1</div>
       </div>
       <div className={styles.digit}>
-        <div className={styles.digitcontainerHundred}>9 6 5 4 3 2 1 0 9 8 9</div>
+        <div className={styles.digitcontainerHundred}>6 5 5 4 3 2 1 0 9 8 6</div>
       </div>
     </div>
   );

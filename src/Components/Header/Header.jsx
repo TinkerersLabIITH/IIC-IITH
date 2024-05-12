@@ -59,7 +59,7 @@ function Header({ handler }) {
           <nav className={styles.navbar} >
             <ul className={styles.navList}>
               <li className={styles.logo}>
-                <a href="https://www.iith.ac.in" target="_blank" rel="noopener noreferrer">
+                <a href="/" rel="noopener noreferrer">
                   <img
                     className={styles.img_class}
                     src={navimag}
