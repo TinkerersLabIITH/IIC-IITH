@@ -90,7 +90,7 @@ const IIC_Council = () => {
                 Vice President
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Prof Chandrashekhar Sharma, Dean (R&D)
+              Ex-officio Dean SRC, IITH (Prof. G Narahari Sastry)
               </td>
             </tr>
             <tr>
@@ -112,7 +112,7 @@ const IIC_Council = () => {
               Innovation Activity Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-              Ex-officio Dean ITS, IITH (Prof. Suryakumar S)
+              Ex-officio Dean ITS, IITH (Prof. Malla Reddy) 
               </td>
             </tr>
             <tr>
@@ -134,7 +134,7 @@ const IIC_Council = () => {
               Internship Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-              Ex-officio FIC, OCS, IITH (Dr. Abhinav Kumar)
+              Ex-officio FIC, OCS, IITH (Dr. Mayur Vaidya)
               </td>
             </tr>
             <tr>
@@ -156,7 +156,7 @@ const IIC_Council = () => {
               Public Relations Coordinator 
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-              Ex-officio FIC, PR, IITH (Dr Shiva Ji)
+              Ex-officio FIC, PR, IITH (Dr Prabhat Kumar)
               </td>
             </tr>
             <td className="table-content" style={{ width: "10%" }}>
@@ -166,7 +166,7 @@ const IIC_Council = () => {
             Ranking Coordinator{" "}
             </td>
             <td className="table-content" style={{ width: "60%" }}>
-            Ex-officio Coordinator, Ranking Committee (Dr. Sai Santosh Kumar Raavi)
+            Ex-officio Coordinator, Ranking Committee (Dr. Anamika Bhargava)
             </td>
 
             <tr>
@@ -237,50 +237,7 @@ const IIC_Council = () => {
               Dr. Sandipan Ray, Assistant Professor, Dept of Biotechnology
               </td>
             </tr>
-            {/* <tr>
-              <td className="table-content" style={{ width: "10%" }}>
-                1.17
-              </td>
-              <td className="table-content" style={{ width: "30%" }}>
-                General Member
-              </td>
-              <td className="table-content" style={{ width: "60%" }}>
-                Dr Prasad Onkar, FIC – Unnat Bharat Abhiyan (UBA)
-              </td>
-            </tr>
-            <tr>
-              <td className="table-content" style={{ width: "10%" }}>
-                1.18
-              </td>
-              <td className="table-content" style={{ width: "30%" }}>
-                General Member
-              </td>
-              <td className="table-content" style={{ width: "60%" }}>
-                Dr Aravind Kumar Rengan, FIC - Incubation, Innovation & Startup
-              </td>
-            </tr>
-            <tr>
-              <td className="table-content" style={{ width: "10%" }}>
-                1.18
-              </td>
-              <td className="table-content" style={{ width: "30%" }}>
-                General Member
-              </td>
-              <td className="table-content" style={{ width: "60%" }}>
-                Dr Prakhar Gupta, FIC - Students Affairs
-              </td>
-            </tr>
-            <tr>
-              <td className="table-content" style={{ width: "10%" }}>
-                1.19
-              </td>
-              <td className="table-content" style={{ width: "30%" }}>
-                Social Media Coordinator/ Secretary
-              </td>
-              <td className="table-content" style={{ width: "60%" }}>
-                Ms Mitalee Agrawal, Public Relations Officer
-              </td>
-            </tr> */}
+            
           </table>
           <br />
           <h4>
@@ -379,7 +336,7 @@ const IIC_Council = () => {
                 Startup / Alumni Entrepreneur{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-                Ms Prathyusha Thammineni, President, IITH Alumni Association
+                President, IITH Alumni Association
               </td>
             </tr>
             <tr>
@@ -413,6 +370,39 @@ const IIC_Council = () => {
               </td>
               <td className="table-content" style={{ width: "60%" }}>
               Public Relations Officer
+              </td>
+            </tr>
+            <tr>
+              <td className="table-content" style={{ width: "10%" }}>
+                2.12
+              </td>
+              <td className="table-content" style={{ width: "30%" }}>
+              TRP Expert{" "}
+              </td>
+              <td className="table-content" style={{ width: "60%" }}>
+              FIC TRP (Dr. Sai Santosh Raavi)
+              </td>
+            </tr>
+            <tr>
+              <td className="table-content" style={{ width: "10%" }}>
+                2.13
+              </td>
+              <td className="table-content" style={{ width: "30%" }}>
+              E-Cell {" "}
+              </td>
+              <td className="table-content" style={{ width: "60%" }}>
+              FIC Ecell (Dr. Phanindra Jampana)
+              </td>
+            </tr>
+            <tr>
+              <td className="table-content" style={{ width: "10%" }}>
+                2.14
+              </td>
+              <td className="table-content" style={{ width: "30%" }}>
+              Tinkerer's Lab and BUILD {" "}
+              </td>
+              <td className="table-content" style={{ width: "60%" }}>
+              FIC Tinkerer's Lab (Dr. AVR Srikar)
               </td>
             </tr>
             
@@ -483,17 +473,7 @@ const IIC_Council = () => {
               Media Secretary, Student Gymkhana, IITH
               </td>
             </tr>
-            {/* <tr>
-              <td className="table-content" style={{ width: "10%" }}>
-                3.7
-              </td>
-              <td className="table-content" style={{ width: "30%" }}>
-                General Member{" "}
-              </td>
-              <td className="table-content" style={{ width: "60%" }}>
-                Mr Vaibhav Kumar, BTech 4th Year, IITH
-              </td>
-            </tr> */}
+            
           </table>
         </div>
       </section>
