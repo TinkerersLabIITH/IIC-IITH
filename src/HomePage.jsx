@@ -12,23 +12,23 @@ import IntroductionSection from "./Components/Intro/Introduction";
 import ImageCarousel from "./Components/Imageslider/ImageSlider";
 import YTframe from './Components/YTframe.jsx';
 
-const HomePage=()=>{
-    return(
-   <Fragment>
-        <div className={styles.App} >
-        <Header />
-        <CoverImage/>
-        <IntroductionSection/>
-        <Major_Functions />
-        <ImageCarousel/>
-        
-        <IandE />
-        <IIC_Council />
-        <YTframe videoId="kVFelDY0D7g" />
-        <Mom />
-        <AnnualReport />
-        <Footer />
-        </div>
+const HomePage = () => {
+    return (
+        <Fragment>
+            <div className={styles.App} >
+                <Header />
+                <CoverImage />
+                <IntroductionSection />
+                <Major_Functions />
+                <ImageCarousel />
+
+                <IandE />
+                <IIC_Council />
+                <YTframe videoId="kVFelDY0D7g" />
+                <Mom />
+                <AnnualReport />
+                <Footer />
+            </div>
         </Fragment>
     )
 }

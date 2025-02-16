@@ -15,6 +15,13 @@ const annualReportData = [
     categories: "annualreport",
     date: "2021-2022",
     link: "IIC_Annual_Report_21_22.pdf",
+  },
+  {
+    title:
+      "IIC Annual Report 2023-2024",
+    categories: "annualreport",
+    date: "2023-2024",
+    link: "IIC_Annual_Report_23_24.pdf",
   }
 ];
 
@@ -35,7 +42,7 @@ function AnnualReport() {
                                 <li key={index}>
                                     <h6>{post.title}</h6>
                                     <h6><b>{post.date}</b></h6>
-                                    <a href={`./files/annualreport/${post.link}`} style={{ textDecoration: 'none' }}>Download</a>
+                                    <a href={`./files/annualreport/${post.link}`} style={{ textDecoration: 'none' }} target="_blank">Download</a>
                                 </li>
                             ))}
                         </ul>

@@ -103,7 +103,31 @@ const Mom = () => {
       categories: "mom",
       date: "Mar 05, 2024",
       link: "14th_IIC_Meeting_MoM.pdf",
-    }
+    },
+    {
+      layout: "post",
+      title:
+        "Minutes of the meeting of 15th Institution‘s Innovation Council Meeting, June 12, 2024",
+      categories: "mom",
+      date: "June 12, 2024",
+      link: "15th_MoM.pdf",
+    },
+    {
+      layout: "post",
+      title:
+        "Minutes of the meeting of 15th Institution‘s Innovation Council Meeting, August 26, 2024",
+      categories: "mom",
+      date: "August 26, 2024",
+      link: "16th_MoM.pdf",
+    },
+    {
+      layout: "post",
+      title:
+        "Minutes of the meeting of 15th Institution‘s Innovation Council Meeting, January 6, 2025",
+      categories: "mom",
+      date: "January 6, 2025",
+      link: "17th_MoM.pdf",
+    },
   ];
   const reversedMeetingData = meetingData.slice().reverse();
 
@@ -130,7 +154,7 @@ const Mom = () => {
                     <h6>
                       <b>{post.date}</b>
                     </h6>
-                    <a href={`./files/mom/${post.link}`} style={{ textDecoration: 'none' }}>Download</a>
+                    <a href={`./files/mom/${post.link}`} style={{ textDecoration: 'none' }} target="_blank">Download</a>
                   </li>
                 ))}
               </ul>
