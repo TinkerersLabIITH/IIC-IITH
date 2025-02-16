@@ -115,7 +115,7 @@ const Mom = () => {
     {
       layout: "post",
       title:
-        "Minutes of the meeting of 15th Institution‘s Innovation Council Meeting, August 26, 2024",
+        "Minutes of the meeting of 16th Institution‘s Innovation Council Meeting, August 26, 2024",
       categories: "mom",
       date: "August 26, 2024",
       link: "16th_MoM.pdf",
@@ -123,7 +123,7 @@ const Mom = () => {
     {
       layout: "post",
       title:
-        "Minutes of the meeting of 15th Institution‘s Innovation Council Meeting, January 6, 2025",
+        "Minutes of the meeting of 17th Institution‘s Innovation Council Meeting, January 6, 2025",
       categories: "mom",
       date: "January 6, 2025",
       link: "17th_MoM.pdf",
