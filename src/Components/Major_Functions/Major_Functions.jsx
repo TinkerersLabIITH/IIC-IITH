@@ -12,7 +12,7 @@ const MajorFunctions = () => {
           <div className="container" style={{display:"flex", alignItems: "center", justifyContent:"center", fontSize: "4rem"}}>
             <h2>
               <b>
-                NIRF 2023: Ranked #3 in Innovation
+                NIRF 2024: Ranked #3 in Innovation
               </b>
             </h2>
           </div>

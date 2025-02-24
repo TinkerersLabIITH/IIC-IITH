@@ -18,6 +18,13 @@ const annualReportData = [
   },
   {
     title:
+      "IIC Annual Report 2022-2023",
+    categories: "annualreport",
+    date: "2022-2023",
+    link: "IIC_Annual_Report_22_23.pdf",
+  },
+  {
+    title:
       "IIC Annual Report 2023-2024",
     categories: "annualreport",
     date: "2023-2024",

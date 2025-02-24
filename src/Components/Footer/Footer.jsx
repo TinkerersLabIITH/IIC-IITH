@@ -29,16 +29,16 @@ function Footer() {
           <div className="col-lg-3 col-md-6 col-sm-12">
             <h3>Contact Us</h3>
             <p className={styles.foot_p}>
-              Ms Mitalee Agrawal
-              <br /> PRO, IIT Hyderabad
-              <br /> Secretary, IIC, IIT Hyderabad
+              Dr. Prabhat Kumar
+              <br/>Public Relations Coordinator
+              <br />Ex-officio FIC, PR, IIT Hyderabad
               <br />
               <a className={styles.linkemail} href="mailto:pro.iith.ac.in">pro.iith.ac.in</a>
             </p>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12">
             <h3>Quick Links</h3>
-            <p className={styles.foot_p}>MOE Innovation Cell</p>
+            <a href="https://mic.gov.in/" target="_blank" className={styles.foot_p}>MOE Innovation Cell</a>
           </div>
         </div>
         <h3 className={styles.lasth3}>
