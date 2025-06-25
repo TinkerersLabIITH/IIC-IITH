@@ -128,6 +128,21 @@ const Mom = () => {
       date: "January 6, 2025",
       link: "17th_MoM.pdf",
     },
+    {
+      layout: "post",
+      title:
+        "Minutes of the meeting of 18th Institution‘s Innovation Council Meeting, March 18, 2025",
+      categories: "mom",
+      date: "March 18, 2025",
+      link: "18th IIC_Quarter2_MOM.pdf",
+    },{
+      layout: "post",
+      title:
+        "Minutes of the meeting of 19th Institution‘s Innovation Council Meeting, June 2, 2025",
+      categories: "mom",
+      date: "June 2, 2025",
+      link: "19th IIC Quarter 3 Mom.pdf",
+    },
   ];
   const reversedMeetingData = meetingData.slice().reverse();
 

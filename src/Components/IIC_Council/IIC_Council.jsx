@@ -145,7 +145,7 @@ const IIC_Council = () => {
               IPR Coordinator{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-              Ex-officio FIC, IPFC, IITH (Dr. Pradeep Kumar Yemula)
+              Ex-officio FIC, IPFC, IITH (Dr. Nithyanandan Kanagaraj)
               </td>
             </tr>
             <tr>
@@ -380,7 +380,7 @@ const IIC_Council = () => {
               TRP Expert{" "}
               </td>
               <td className="table-content" style={{ width: "60%" }}>
-              FIC TRP (Dr. Sai Santosh Raavi)
+              FIC TRP Prof. Bheemarjuna Reddy Tamma.
               </td>
             </tr>
             <tr>
