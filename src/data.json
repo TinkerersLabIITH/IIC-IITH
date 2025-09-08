@@ -1,0 +1,180 @@
+{
+    "IIC_Council": {
+        "StaffRepresentation": [
+            {
+                "SNo": "1.1",
+                "Position": "Ranking Coordinator",
+                "NameDesignation": "Ex-officio Coordinator, Ranking Committee (Dr. Saurabh Sandliya)"
+            },
+            {
+                "SNo": "1.2",
+                "Position": "Vice President",
+                "NameDesignation": "Ex-officio Dean SRC, IITH (Prof. G Narahari Sastry)"
+            },
+            {
+                "SNo": "1.3",
+                "Position": "Convenor",
+                "NameDesignation": "Dr. Jayshree Patnaik, Assistant Professor, Dept. of EM"
+            },
+            {
+                "SNo": "1.4",
+                "Position": "Innovation Activity Coordinator",
+                "NameDesignation": "Ex-officio Dean ITS, IITH (Prof. Malla Reddy)"
+            },
+            {
+                "SNo": "1.5",
+                "Position": "Startup Activity Coordinator",
+                "NameDesignation": "Ex-officio FIC, iTIC, IITH (Dr Aravind Rengan)"
+            },
+            {
+                "SNo": "1.6",
+                "Position": "Internship Coordinator",
+                "NameDesignation": "Ex-officio FIC, OCS, IITH (Dr. Mayur Vaidya)"
+            },
+            {
+                "SNo": "1.8",
+                "Position": "IPR Coordinator",
+                "NameDesignation": "Ex-officio FIC, IPFC, IITH (Dr. Nithyanandan Kanagaraj)"
+            },
+            {
+                "SNo": "1.9",
+                "Position": "Public Relations Coordinator",
+                "NameDesignation": "Ex-officio FIC, PR, IITH (Dr Prabhat Kumar)"
+            },
+            {
+                "SNo": "1.10",
+                "Position": "Ranking Coordinator",
+                "NameDesignation": "Ex-officio Coordinator, Ranking Committee (Dr. Anamika Bhargava)"
+            },
+            {
+                "SNo": "1.11",
+                "Position": "Incubation Centre Representative",
+                "NameDesignation": "FIC, FabCI, IITH (Prof. Siva Rama Krishna Vanjari)"
+            },
+            {
+                "SNo": "1.12",
+                "Position": "Innovation Ambassador",
+                "NameDesignation": "Dr Mudrika Khandelwal, Associate Professor, Dept. of MSME"
+            },
+            {
+                "SNo": "1.14",
+                "Position": "Innovation Ambassador",
+                "NameDesignation": "Dr Sayak Banerjee, Assistant Professor, Dept. of Mechanical &Aerospace Engg."
+            },
+            {
+                "SNo": "1.15",
+                "Position": "Innovation Ambassador",
+                "NameDesignation": "Dr Suhanya Duraiswamy, Assistant Professor, Dept. of ChemicalEngg."
+            },
+            {
+                "SNo": "1.13",
+                "Position": "Innovation Ambassador",
+                "NameDesignation": "Prof. Deepak John Mathew, Professor, Dept of Design"
+            },
+            {
+                "SNo": "1.16",
+                "Position": "Innovation Ambassador",
+                "NameDesignation": "Dr. Sandipan Ray, Assistant Professor, Dept of Biotechnology"
+            }
+        ],
+        "ExpertRepresentation": [
+            {
+                "SNo": "2.1",
+                "Position": "General Member",
+                "NameDesignation": "Prof Mohan Sangeneni, Advisor-Innovation & Translational Research"
+            },
+            {
+                "SNo": "2.2",
+                "Position": "General Member",
+                "NameDesignation": "Ex-officio Chair, Rural Development Centre, IITH (Prof. Satish Regonda)"
+            },
+            {
+                "SNo": "2.3",
+                "Position": "General Member",
+                "NameDesignation": "Ex-officio FIC – Unnat Bharat Abhiyan (UBA), IITH (Dr Prasad S Onkar)"
+            },
+            {
+                "SNo": "2.4",
+                "Position": "General Member",
+                "NameDesignation": "Ex-officio FIC - Students Affairs, IITH (Dr Jyoti Vedurada)"
+            },
+            {
+                "SNo": "2.5",
+                "Position": "General Member",
+                "NameDesignation": "Ex-officio FIC - TTO (Prof. Pradeep Yemula)"
+            },
+            {
+                "SNo": "2.6",
+                "Position": "General Member",
+                "NameDesignation": "Ex-officio HoD, Dept. of EM (Dr Lohithaksha M Maiyar)"
+            },
+            {
+                "SNo": "2.7",
+                "Position": "Patent Expert",
+                "NameDesignation": "Mr Anna Eswara Reddy, Patent Analyst"
+            },
+            {
+                "SNo": "2.8",
+                "Position": "Startup / Alumni Entrepreneur",
+                "NameDesignation": "President, IITH Alumni Association"
+            },
+            {
+                "SNo": "2.9",
+                "Position": "Expert from nearby Industry",
+                "NameDesignation": "Mr Vinay Chilakapati (CEO, Innomet Advanced Materials Pvt. Ltd.)"
+            },
+            {
+                "SNo": "2.10",
+                "Position": "FI/ Bank Investor/ Angel Investor/ VC",
+                "NameDesignation": "Ex-Officio Branch Manager, Canara Bank, IITH Kandi Branch"
+            },
+            {
+                "SNo": "2.11",
+                "Position": "IIC Portal Coordinator",
+                "NameDesignation": "Public Relations Officer"
+            },
+            {
+                "SNo": "2.12",
+                "Position": "TRP Expert",
+                "NameDesignation": "FIC TRP (Prof. Abhinav Kumar)"
+            },
+            {
+                "SNo": "2.13",
+                "Position": "E-Cell",
+                "NameDesignation": "FIC Ecell (Dr. Rajesh Ittamalla)"
+            },
+            {
+                "SNo": "2.14",
+                "Position": "Tinkerer's Lab and BUILD",
+                "NameDesignation": "FIC Tinkerer's Lab (Dr. AVR Srikar)"
+            }
+        ],
+        "StudentRepresentation": [
+            {
+                "SNo": "3.1",
+                "Position": "Startup Activity Coordinator",
+                "NameDesignation": "Head, E Cell, IITH"
+            },
+            {
+                "SNo": "3.2",
+                "Position": "Innovation Activity Coordinator",
+                "NameDesignation": "Science &Technology Secretary, Student Gymkhana, IITH"
+            },
+            {
+                "SNo": "3.3",
+                "Position": "Internship Coordinator",
+                "NameDesignation": "Head, Office of Career Services, IITH"
+            },
+            {
+                "SNo": "3.4",
+                "Position": "IPR Coordinator",
+                "NameDesignation": "Head, Tinkerer's Lab, IITH"
+            },
+            {
+                "SNo": "3.5",
+                "Position": "Social Media Coordinator",
+                "NameDesignation": "Media Secretary, Student Gymkhana, IITH"
+            }
+        ]
+    }
+}
